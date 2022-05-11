@@ -2,7 +2,7 @@
 
 let randomNumb = Math.floor(Math.random () * 6) +1;
 
-let randomImg = "dice" + randomNumb + ".svg"
+let randomImg = "img/dice" + randomNumb + ".svg"
 
 
 document.querySelector('img').setAttribute("src", randomImg);
@@ -11,7 +11,7 @@ document.querySelector('img').setAttribute("src", randomImg);
 
 let randomNumb2 = Math.floor(Math.random () * 6) +1;
 
-let randomImg2 = "dice" + randomNumb2 + ".svg"
+let randomImg2 = "img/dice" + randomNumb2 + ".svg"
 
 
 document.querySelector('.imgClass').setAttribute("src", randomImg2);
